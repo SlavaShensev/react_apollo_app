@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e4526fe-f15d-4729-a385-b5dea24fb986" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryAllPets/gql/queryAllPets.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryAllPets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryAllAvailablePets/gql/queryAllAvailablePets.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryAllAvailablePets/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/specialList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/bus/pet/hooks/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bus/pet/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryAllPets/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryAllPets/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/bus/pet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bus/pet/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,6 +35,12 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="ts.external.directory.path" value="E:\Work\Soft\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\Projects\react_apollo_app\src\app\bus\pet" />
+      <recent name="E:\Work\Projects\react_apollo_app\src\app\bus\pet\hooks" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -76,7 +84,7 @@
       <workItem from="1621795674472" duration="814000" />
       <workItem from="1621796850908" duration="696000" />
       <workItem from="1621841588958" duration="7085000" />
-      <workItem from="1621852372160" duration="3238000" />
+      <workItem from="1621852372160" duration="8046000" />
     </task>
     <task id="LOCAL-00001" summary="add client">
       <created>1621803056404</created>
@@ -92,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621843587323</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add list pets">
+      <created>1621855653146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621855653146</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add client" />
     <MESSAGE value="add files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add files" />
+    <MESSAGE value="add list pets" />
+    <option name="LAST_COMMIT_MESSAGE" value="add list pets" />
   </component>
 </project>

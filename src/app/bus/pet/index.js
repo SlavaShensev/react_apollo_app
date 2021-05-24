@@ -2,7 +2,8 @@
 import React from 'react';
 // Component
 import {Counter} from "./counter";
-import {List} from "./hooks/list";
+import {List} from "./list";
+import {SpecialList} from "./specialList";
 
 export const Pet = () => {
     return (
@@ -10,6 +11,7 @@ export const Pet = () => {
             <h2> Pet </h2>
             < Counter/>
             <List/>
+            <SpecialList/>
         </>
     )
 }

@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Hooks
-import {useQueryAllPets} from "./useQueryAllPets";
+import {useQueryAllPets} from "./hooks/useQueryAllPets";
 
 export const List = () => {
     const {loading, error, pets} = useQueryAllPets();
@@ -26,12 +26,12 @@ export const List = () => {
                 <span> Weight: {weight} </span>
             </p>
         )
-    })
+    });
 
     return (
         <>
             <h3> List </h3>
-            { petsJSX }
+            {petsJSX}
         </>
     )
 };
