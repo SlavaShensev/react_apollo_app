@@ -16,16 +16,22 @@ export const SpecialList = () => {
         </p>
     );
 
-    const petsJSX = pets.map(({id, name, weight}) => {
+    const petsJSX = pets && pets.map(({id, name, weight}) => {
         return (
             <p key={id}>
-                <span> Nmae: {} </span>
-                <span>  </span>
+                <span> Name: {name} </span>
+                <span> Weight: {weight} </span>
             </p>
         )
     });
 
     return (
-        <h3>Special List</h3>
+        <>
+            <h3>Special List</h3>
+            <button onClick={getAllAvailablePets}>
+                petsJSX
+            </button>
+            {petsJSX}
+        </>
     )
 };
