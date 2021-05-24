@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e4526fe-f15d-4729-a385-b5dea24fb986" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryAvailablePets/gql/queryAvailablePets.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/hooks/useQueryAvailablePets/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/bus/pet/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/bus/pet/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bus/pet/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/bus/pet/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/bus/pet/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +29,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="E:\Work\Soft\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -77,6 +73,7 @@
       <updated>1621795673262</updated>
       <workItem from="1621795674472" duration="814000" />
       <workItem from="1621796850908" duration="696000" />
+      <workItem from="1621841588958" duration="1745000" />
     </task>
     <task id="LOCAL-00001" summary="add client">
       <created>1621803056404</created>

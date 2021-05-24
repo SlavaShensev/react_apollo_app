@@ -1,4 +1,6 @@
+// Core
 import React from 'react';
+// Component
 import {Counter} from "./counter";
 
 export const Pet = () => {
